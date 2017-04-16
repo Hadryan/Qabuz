@@ -1,0 +1,37 @@
+{
+  "name": "web-qabuze",
+  "version": "0.1.0",
+  "description": "A Web-proxy to orchestrate requests to the Qobuz-API.",
+  "author": "Hendrik Meyer <xendo@xendosoft.de>",
+  "contributors": [
+    {
+      "name": "Hendrik Meyer",
+      "email": "xendo@xendosoft.de"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodejitsu/browsenpm.org"
+  },
+  "bugs": {
+    "url": "https://github.com/nodejitsu/browsenpm.org/issues"
+  },
+  "keywords": [
+    "qabuze",
+    "proxy",
+    "qobuz"
+  ],
+  "dependencies": {
+    "colors": "latest",
+    "combined-stream": "0.0.7",
+    "js-md5": "latest",
+    "nedb": "^0.11.1",
+    "request": "latest"
+  },
+  "preferGlobal": true,
+  "private": true,
+  "license": "GPLv3"
+}
